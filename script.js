@@ -22,7 +22,7 @@ form.addEventListener('submit', (e) => {
 
 	if (username === user1 && password === pass1 || username === user2 && password === pass2 || username === user3 && password === pass3) {
 
-		window.location.href = 'index0.html';
+		window.location.href = 'dhjjjhdhfjuihuhukshkuhkufhukhfklskjdkjkjkfkjsjlkjkfjk.html';
 	} else {
 		errorMessage.textContent = 'كلمة المرور خـطئ !';
 	}
