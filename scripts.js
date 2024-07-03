@@ -15,6 +15,7 @@ document.getElementById('password').style.textAlign = 'center';
 document.getElementById('submit').style.color = 'blue';
 document.getElementById('submit').style.fontWeight = '800';
 document.getElementById('submit').style.textAlign = 'center';
+document.getElementById('footer').innerHTML = "Login";
 
 
 document.getElementById('button').style.color = 'blue';
