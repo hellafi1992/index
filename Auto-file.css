@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -14,123 +14,122 @@ img{
 
 
 .main {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: center;
-  background-size: cover;
-  animation: back 20s linear infinite;
-  transition: all 8s;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    animation: back 20s linear infinite;
+    transition: all 8s;
 }
 
 @keyframes back {
-  0%{
+    0%{
     background-image: linear-gradient(-190deg, rgb(230, 108, 108), white, rgb(126, 168, 216));
-  }
-  10%{
+    }
+    10%{
     background-image: linear-gradient(10deg, rgb(230, 108, 108), goldenrod, rgb(126, 168, 216));
-  }
-  20%{
+    }
+    20%{
     background-image: linear-gradient(120deg, rgb(230, 108, 108), goldenrod, rgb(126, 168, 216));
-  }
-  30%{
+    }
+    30%{
     background-image: linear-gradient(-90deg, rgb(230, 108, 108), gold, rgb(126, 168, 216));
-  }
-  40%{
+    }
+    40%{
     background-image: linear-gradient(10deg, rgb(230, 108, 108), goldenrod, rgb(126, 168, 216));
-  }
-  50%{
+    }
+    50%{
     background-image: linear-gradient(50deg, rgb(230, 108, 108), gold, rgb(126, 168, 216));
-  }
-  60%{
+    }
+    60%{
     background-image: linear-gradient(20deg, rgb(230, 108, 108), yellow, rgb(126, 168, 216));
-  }
-  70%{
+    }
+    70%{
     background-image: linear-gradient(-20deg, rgb(230, 108, 108), white, rgb(126, 168, 216));
-  }
-  80%{
+    }
+    80%{
     background-image: linear-gradient(40deg, rgb(230, 108, 108), white, rgb(126, 168, 216));
-  }
-  90%{
+    }
+    90%{
     background-image: linear-gradient(50deg, rgb(230, 108, 108), white, rgb(126, 168, 216));
-  }
-  100%{
+    }
+    100%{
     background-image: linear-gradient(90deg, rgb(230, 108, 108), white, rgb(126, 168, 216));
-  }
+    }
 }
 
 .profile-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 400px;
-  width: 100%;
-  border-radius: 25px;
-  padding: 30px;
-  border: 1px solid #ffffff40;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 
 .image {
-  position: relative;
-  height: 150px;
-  width: 150px;
+    position: relative;
+    height: 150px;
+    width: 150px;
 }
 
 .image .profile-pic {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 
 .data {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
 }
 
 .data h2 {
-  font-size: 33px;
-  font-weight: 600;
+    font-size: 33px;
+    font-weight: 600;
 }
 
 span {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .row {
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .row .info {
-  text-align: center;
-  padding: 0 20px;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .buttons .btn {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 20px;
-  padding: 8px 25px;
-  border-radius: 25px;
-  font-size: 18px;
-  white-space: nowrap;
-  background: linear-gradient(to left, #33ccff 0%, #97064e 100%);
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    white-space: nowrap;
+    background: linear-gradient(to left, #33ccff 0%, #97064e 100%);
 }
 
 .buttons .btn:hover {
-  box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+    box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
 }
